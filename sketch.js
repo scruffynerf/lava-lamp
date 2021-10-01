@@ -1,6 +1,6 @@
 let blurH, blurV, contrast;
 let blurLevel = 2;
-let particleSize = 20;
+let particleSize = 40;
 
 let width = 400;
 let height = 800;
@@ -29,8 +29,8 @@ function setup() {
   frameRate(fr);
 
   gravity = createVector(0, 0.35);
-  friction = 0.2;
-  elasticity = 0.5;
+  friction = 0.99;
+  elasticity = 0.9;
   magBias = 1000;
 
   cnv = createCanvas(width, height);
