@@ -28,9 +28,9 @@ function preload() {
 function setup() {
   frameRate(fr);
 
-  gravity = createVector(0, 0.15);
-  friction = 0.2;
-  elasticity = 0.95;
+  gravity = createVector(0, 0.35);
+  friction = 0.3;
+  elasticity = 0.9;
   magBias = 1000;
 
   cnv = createCanvas(width, height);
