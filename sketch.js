@@ -1,6 +1,6 @@
 let blurH, blurV, contrast;
 let blurLevel = 2;
-let particleSize = 20;
+let particleSize = 40;
 
 let width = 400;
 let height = 800;
