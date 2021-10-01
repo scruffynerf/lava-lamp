@@ -31,7 +31,7 @@ function setup() {
   gravity = createVector(0, 0.35);
   friction = 0.6;
   elasticity = 0.9;
-  magBias = 2000;
+  magBias = 500;
 
   cnv = createCanvas(width, height);
   var x = (windowWidth - width) / 2;
