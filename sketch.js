@@ -29,8 +29,8 @@ function setup() {
   frameRate(fr);
 
   gravity = createVector(0, 0.35);
-  friction = 0.3;
-  elasticity = 0.9;
+  friction = 0.2;
+  elasticity = 0.5;
   magBias = 1000;
 
   cnv = createCanvas(width, height);
