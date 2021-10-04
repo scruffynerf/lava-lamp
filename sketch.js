@@ -29,7 +29,7 @@ function setup() {
   frameRate(fr);
 
   gravity = createVector(0, 0.35);
-  friction = 0.9;
+  friction = 0.2;
   elasticity = 0.9;
   magBias = 250;
 
